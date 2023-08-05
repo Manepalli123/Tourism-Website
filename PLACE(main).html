@@ -1,0 +1,1952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css">
+
+</head>
+
+<body>
+    <section id="sectionhome">
+        <div class="background">
+            <div class="container">
+                <div class="row">
+                    <h1 class="name">7 WONDER'S OF THE WORLD</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="china col-12 col-md-5 col-xl-4">
+                        <h1 class="highlight">Great Wall of China</h1>
+                        <img src="http://1.bp.blogspot.com/-nrOnp5UqAqE/Uoiit3NJY5I/AAAAAAAAQxM/YPlslXITl68/s1600/great+wall+of+china+(2).jpg" class="favourite-place-card-image">
+                        <p class="high1">One of the world's largest building-construction projects, the Great Wall of China is widely thought to be about 5,500 miles (8,850 km) long and massive construction size and its massive construction size, and its unique architectural style as well.</p>
+                        <br>
+                        <button class="btn btn-primary butt" onclick="display('sectionGWOC')">GO</button>
+                    </div>
+                    <div class=" china col-12 col-md-5 col-xl-3">
+                        <h1 class="highlight">Chichén Itzá</h1>
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.o9iB7fUl0IEt5TGwx5LHlgHaFj&pid=Api&P=0&h=180" class="favourite-place-card-image">
+                        <p class="high1">Chichén Itzá is a Mayan city on the Yucatán Peninsula in Mexico, which flourished in the 9th and 10th centuries CEChichen Itza is home to a number of architectural and natural wonders.</p>
+
+                        <button class="btn btn-primary butt" onclick="display('sectionItza')">GO</button>
+                    </div>
+                    <div class="china col-12 col-md-5 col-xl-3">
+                        <h1 class="highlight">Petra</h1>
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.hLl7rmepGLVF8ZlgVxmrAgHaE7&pid=Api&P=0&h=180" class="favourite-place-card-image">
+                        <p class="high1">The ancient city of Petra, Jordan, is located in a remote valley, nestled among sandstone mountains and cliffs. It was purported to be one of the places where Moses struck a rock and water gushed forth.</p>
+                        <button class="btn btn-primary butt" onclick="display('sectionPetra')">GO</button>
+                    </div>
+                    <div class="china col-12 col-md-5 col-lg-4  col-xl-4">
+                        <h1 class="highlight">Christ the Redeemer</h1>
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.0SRNYsSh2Zjh8OwoOnvGhwHaE7&pid=Api&rs=1&c=1&qlt=95&w=183&h=122" class="favourite-place-card-image">
+                        <p class="high1">Christ the Redeemer, a colossal statue of Jesus, stands atop Mount Corcovado in Rio de Janeiro. Its origins date to just after World War I, when some Brazilians feared a “tide of godlessness.”
+                            It is the largest Art Deco sculpture in the world</p>
+                        <button class="btn btn-primary butt" onclick="display('sectionchrist')">GO</button>
+                    </div>
+                    <div class="china col-12 col-md-5 col-lg-4  col-xl-3">
+                        <h1 class="highlight">Machu Picchu</h1>
+                        <img src="https://s.yimg.com/fz/api/res/1.2/oty9td0C3vR8Vx6Af27h0w--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/cdb1b961-84d5-367c-a2ea-e1838aec0959/t_500x300" class="favourite-place-card-image">
+                        <p class="high1">This Incan site near Cuzco, Peru, was “discovered” in 1911 by Hiram Bingham, who believed it was Vilcabamba, a secret Incan stronghold used during the 16th-century rebellion against Spanish rule.</p>
+                        <button class="btn btn-primary butt" onclick="display('sectionMachu')">GO</button>
+                    </div>
+
+                    <div class="china col-12 col-md-5 col-lg-4  col-xl-3">
+                        <h1 class="highlight">Colosseum</h1>
+                        <img src="https://s.yimg.com/fz/api/res/1.2/.VAvALRLxqFlKiNQ8mBV.w--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0yMjA7cT04MDt3PTMzMA--/https://s.yimg.com/zb/imgv1/9821d2ed-339e-330b-b316-9091744178c9/t_500x300" class="favourite-place-card-image">
+                        <p class="high1">The Colosseum in Rome was built in the first century by order of the Emperor Vespasian. A feat of engineering, the amphitheater measures 620 by 513 feet (189 by 156 meters) and features a complex system of vaults. </p>
+                        <button class="btn btn-primary butt" onclick="display('sectionColo')">GO</button>
+                    </div>
+
+                    <div class="china col-12 col-md-5 col-lg-4  col-xl-4">
+                        <h1 class="highlight">Taj Mahal</h1>
+                        <img src="https://s.yimg.com/fz/api/res/1.2/MbTBRfMOHRxXqSrYrRCXYg--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0yMjg7cHhvZmY9MDtweW9mZj0wO3E9ODA7dz00MDA-/https://www.bing.com/th?id=OVFT.PZjgBz2ZF2-_sdjiTl0q4i&pid=News&w=700&h=393&c=14&qlt=90&dpr=2" class="favourite-place-card-image">
+                        <p class="high1">This mausoleum complex in Agra, India, is regarded as one of the world’s most iconic monuments and is perhaps the finest example of Mughal architecture. It was built by Emperor Shah Jahān (reigned 1628–58) to honor his wife Mumtāz Maḥal.</p>
+                        <button class="btn btn-primary butt" onclick="display('sectionAgra')">GO</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sectionGWOC">
+        <div class="Great">
+            <h2 class="name">The Great Wall of China</h2>
+            <a href="https://www.google.com/maps/place/Great+Wall+of+China/@40.4213557,116.6070031,12z/data=!4m6!3m5!1s0x35f121d7687f2ccf:0xd040259b950522df!8m2!3d40.4319077!4d116.5703749!16zL20vMGQyZHEw?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1200px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/premium-photo/great-wall-china-jinshanling-section_720143-1950.jpg?w=996" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/38/37/f6.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                <span class="underline">Early Walls:</span> earliest walls and fortifications in China were built as early as the 7th century BCE. These were constructed by individual states to defend against invasions from rival states. The walls were made of materials such as earth, wood, and stones.
+                <br>
+                <span class="underline">Qin Dynasty: </span>The construction of the Great Wall on a larger scale began during the Qin Dynasty (221-206 BCE) under the rule of Emperor Qin Shi Huang. To unify the country and protect it from northern nomadic tribes, Emperor Qin connected and extended existing walls. The labor force for the construction consisted of soldiers, peasants, and prisoners. The wall was initially made of rammed earth and later reinforced with stone.
+                <br>
+                <span class="underline">Han Dynasty:</span>During the Han Dynasty (206 BCE-220 CE), the Great Wall underwent further extensions and renovations. The purpose remained primarily defensive, and the wall was extended westward to protect the Silk Road trade routes.
+                <br>
+                <span class="underline">Ming Dynasty:</span>The most well-known and well-preserved sections of the Great Wall were built during the Ming Dynasty (1368-1644 CE). The construction was carried out on a massive scale, using bricks and stone blocks. The Ming Dynasty's walls were designed to withstand attacks from cannons and firearms. During this period, the wall was extended, repaired, and fortified to protect against Mongol invasions.
+                <br>
+                <span class="underline">Purpose and Function:</span>The primary purpose of the Great Wall was defense. It acted as a physical barrier to protect China's agricultural lands and cities from raids and invasions by various nomadic tribes from the north, such as the Mongols and Xiongnu. It also served as a means of communication and transportation, with signal towers and beacon fires used to relay messages.
+                <hr>
+            </div>
+
+
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+            </div>
+
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Hotels and Restaurant's</h5>
+            </div>
+
+
+            <div class="message">
+                <img src="https://newprojects.99acres.com/projects/kay_invest/great_wall_hotel/images/n71b8o7a.jpg" class="ki">
+
+                <h2 class="hoverline">Home of the Great Wall</h2>
+                ⭐ 4.7
+                <p>3km from Mutianyu Great Wall, Huairou District, Beijing, China, 101405</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons0">
+                    <form action="https://www.booking.com/hotel/cn/homr-of-the-great-wall.en-gb.html?aid=356980&label=gog235jc-1DCAsoMUIWaG9tci1vZi10aGUtZ3JlYXQtd2FsbEgzWANobIgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gC8uripQbAAgHSAiRlOTMxZGFiYS1lYzkzLTRlMGYtOWQ3My01ZTc3NzE3MzM4MjPYAgTgAgE&sid=2f79c04c5dc28452f12b2efa6155e267&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="message">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/13/41/81/ef/brickyard-retreat-at.jpg" class="kl">
+                <h2 class="hoverline">Brickyard Retreat at Mutianyu Great Wall</h2>
+                ⭐ 4.0
+                <p>CHJ2+C54, Beigou Village, Huairou District, Beijing, China, 101405•+86 10 6162 6506</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons1">
+                    <form action="https://brickyardmutianyu.com/" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <br>
+
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/309714618.jpg?k=cf15fa21a64c02a82e52c26008bbf9c810d8e12be1dc31ef7f54ffec4177259b&o=&hp=1" class="ki">
+
+                <h2 class="hoverline">Beijing Mutianyu Great Wall Wangshanyuan Farm Stay</h2>
+                ⭐ 4.8
+                <p>China, Beijing Area Beijing,1401405•+86 158 1027 2613</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons2">
+                    <form action="https://www.booking.com/hotel/cn/bei-jing-mu-tian-yu-chang-cheng-wang-shan-yuan-nong-jia-yuan.en-gb.html?aid=356980&label=gog235jc-1DCAsoMUI8YmVpLWppbmctbXUtdGlhbi15dS1jaGFuZy1jaGVuZy13YW5nLXNoYW4teXVhbi1ub25nLWppYS15dWFuSDNYA2hsiAEBmAEJuAEXyAEP2AED6AEBiAIBqAIDuAKo7OKlBsACAdICJDE1ZjM1NmI5LTlkYWYtNDMxYi05ODY0LTVkNmQ1NzhiMGNkYtgCBOACAQ&sid=127a39173d08d80076e38d139d702390&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+
+
+            <div class="message">
+                <img src="https://ak-d.tripcdn.com/images/0204x1200045qdefs9049_R_960_660_R5_D.jpg" class="ki">
+                <h2 class="hoverline">Bake Gongshe</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p>CHQP+8W7, Fanqi Rd, Huairou District, Beijing, China, 101406•+86 10 6162 9203</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="http://buckcommune.hotels-inbeijing.com/" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.google.com/travel/search?q=hotels%20and%20restaurants%20near%20great%20wall%20of%20china&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4429191%2C4597339%2C4757164%2C4814050%2C4850738%2C4864715%2C4874190%2C4886480%2C4893075%2C4924070%2C4965990%2C4990494%2C72281254%2C722860      89%2C72295243%2C72296744%2C72300991%2C72301168%2C72305077%2C72309950%2C72312098%2C72312101%2C72313836&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAESCgoCCAMKAggDEAAaXgo-EjwyJTB4MzVmMTIxZDc2ODdmMmNjZjoweGQwNDAyNTliOTUwNTIyZGY6E0dyZWF0IFdhbGwgT2YgQ2hpbmESHBIUCgcI5w8QBxgXEgcI5w8QBxgYGAEyBAgAEAAqCgoICgEIOgNJTlI&qs=CAE4BkILCXDfj66WSBA0GAFCCwm1-zrTjXlbOxgBQgsJycODWBF3Y3QYAQ&ap=KigKEglFb8oZwjdEQBHTzP9EdCVdQBISCSNIcwZwOERAEdPM_1y2JV1AMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjI9v762JiAAxUAAAAAHQAAAAAQQQ" target="_blank">For more Details click here</a>
+
+            <br>
+            <br>
+
+            <div class="nothing d-flex flex-row">
+                🔍
+                <h5 class="name1"> Famous Places</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/White_Horse_Temple" target="_blank"><img src="https://www.ancient-origins.net/sites/default/files/field/image/White-Horse-Temple.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12 ">White Horse Temple</p>
+                    </div>
+                    <div class="vs col-12  col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Yonghe_Temple" target="_blank"><img src="https://www.travelchina.org.cn/gjlycms/sitefiles/img/gjly_en/meijing/16041208273572745_sy.jpg" height="100px" width="100px" class="bor"> </a>
+                        <p class="hoverline col-12">Lama Temple</p>
+
+                    </div>
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Giant_Wild_Goose_Pagoda" target="_blank"><img src="https://www.asiaculturaltravel.co.uk/wp-content/uploads/2015/04/Giant-Wild-Goose-Pagoda01-600x529.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12"> Giant Wild Goose Pagoda Temple</p>
+
+                    </div>
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Shaolin_kung_fu" target="_blank"><img src="https://i0.wp.com/asiatimes.com/wp-content/uploads/2018/12/iStock-503261153.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Shaolin Temple</p>
+                    </div>
+
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Tiger_Hill_Pagoda" target="_blank"><img src="https://www.chinaeducationaltours.com/media/image/2017-12/15141874781723.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Tiger Hill Pagoda</p>
+                    </div>
+
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Terracotta_Army" target="_blank"><img src="https://media.audleytravel.com/-/media/images/home/north-asia-and-russia/china/country-guides/our-guide-to-exploring-the-terracotta-army-of-xian/istock_169998749_china_xian_terracotta_warriors_pit_one.webp?q=79&w=800&h=571" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">The Terracotta Army, Xi'an</p>
+                    </div>
+
+
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Li_River" target="_blank"><img src="https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cmsfeatured/li-river-cruise-guide-featured-image-1561538866-785X440.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Li River, Guilin </p>
+
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Zhao_Mausoleum_(Qing_dynasty)" target="_blank"><img src="https://media2.thrillophilia.com/images/photos/000/372/346/original/1619597051_00038300.JPG?w=753&h=450&dpr=1.5" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">The Mausoleum of Light</p>
+                    </div>
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Chengdu_Research_Base_of_Giant_Panda_Breeding" target="_blank"><img src="https://www.globaltimes.cn/Portals/0/attachment/2022/2022-09-21/f5df0212-4df9-486d-99f2-a34f7214e18f.jpeg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Chengdu Research Base of Giant Panda Breeding</p>
+                    </div>
+
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre" target="_blank"><img src="https://cdn.britannica.com/59/129159-050-75E7FB3C/Tiananmen-end-Beijing.jpg" height="100px" width="100px" class="bor" /></a>
+                        <p class="hoverline col-12 ">Tiananmen Square</p>
+
+                    </div>
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Temple_of_Heaven" target="_blank"><img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/05/Temple-Of-Heaven-Feature.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Temple of Heaven</p>
+                    </div>
+                    <div class=" vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1_tianzishan_wulingyuan_zhangjiajie_2012.jpg/1200px-1_tianzishan_wulingyuan_zhangjiajie_2012.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Zhangjiajie National Forest Park</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+                <a href="https://www.thrillophilia.com/places-to-visit-in-china" target="_blank">For more info click here</a>
+            
+
+        </div>
+        </div>
+        </div>
+
+
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+
+
+    </section>
+    <section id="sectionItza">
+        <div class="Great">
+            <h2 class="name">Chichén Itzá</h2>
+            <a href="https://www.google.com/maps/search/chichen+itza+map/@20.6836354,-88.5704045,17z/data=!3m1!4b1?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Lur9bxrLL-HbbtIMNqTAc2Gzza28sJg_FA&usqp=CAU" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.playadelcarmen.com/blog/wp-content/uploads/chichen-4-b.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://destinationlesstravel.com/wp-content/uploads/2017/11/DSC_0362-scaled.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators1" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators1" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                Chichén Itzá was a sacred city of pyramids and temples. The Mayans designed their temples in Chichén Itzá to be used as calendars and for rituals. They were made to track celestial events, and the Mayans displayed an extraordinary knowledge of astronomy and mathematics in their construction.
+                <br>
+                <span class="bold">Mystery of Chichen Itza: </span>The Secrets of Chichén Itzá
+                It is believed that this particular cenote was used for ceremonial purposes, including human sacrifices to the Mayan rain god. Archeologists have uncovered bones and jewelry from the site. Chichén Itzá's name literally means “at the mouth of the well of Itza”.
+                <br>
+                <span class="bold">The Maya name : </span> "Chichen Itza" means " at the edge of the Itza's well." This derives from chi', meaning "mouth" or "edge", and ch'e'en, meaning "well." Itza is the name of an ethnic-lineage group that dominated the northern peninsula of Yucatan, Mexico prior to the Spanish Conquest.
+
+
+
+            </div>
+
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+            
+
+            <div class="something d-flex flex-row">
+
+                🔍
+                <h5 class="name1">Hotels and Restaurant's</h5>
+
+            </div>
+        </div>
+
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/277473969.jpg?k=5309cf1487d27857719741fb66a260f6c01d5669065f256e3fc1b95a5448a19d&o=&hp=1" class="ki">
+
+                <h2 class="hoverline">Hotel Doralba Inn Chichen</h2>
+                ⭐ 4.7
+                <p> Km 122 Carretera Merida-Cancun, 97751 Chichén-Itzá, Mexico</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons0">
+                    <form action="https://www.booking.com/hotel/mx/dolores-alba-chichen-itza.en-gb.html" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <br>
+
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/291652761.jpg?k=fdcf8882f59d201e0591fdd3d71643d117af9d12b2a4f2c1ba15f79b7fed5eaf&o=&hp=1" class="kl">
+
+                <h2 class="hoverline">La Casa de las Lunas</h2>
+                ⭐ 4.8
+                <p> Av. Principal Piste, 97751 Chichén-Itzá, Mexico</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons1">
+                    <form action="https://www.booking.com/hotel/mx/la-casa-de-las-lunas.en-gb.html" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+
+
+
+            <div class="message">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.xgFGdXtcFh4PFKIONSAgMwHaE8&pid=Api&P=0&h=180" class="ki">
+                <h2 class="hoverline">Casa Victoria</h2>
+                ⭐ 4.8
+                <p> Calle 6 36 CALLE 3, 97751 Chichén-Itzá, Mexico</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="puj">
+                    <form action="https://www.booking.com/hotel/mx/casa-victoria-piste.en-gb.html?aid=306395&label=chichen-itza-W*SUoZZbA4WzoimYyPS2KwS392664036675%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2545171501%3Alp20453%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&sid=127a39173d08d80076e38d139d702390&dest_id=-1657009&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=4&hpos=4&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1689830238&srpvid=89cd252e8778013d&type=total&ucfs=1&activeTab=main" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/49259252.jpg?k=d2eaed668e74bba497c64721d078fcb3001a08935d1e4e2d89f44708b020a449&o=&hp=1" class="ki">
+
+                <h2 class="hoverline">Villas Arqueologicas Chichen Itza
+                    Opens in new window</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p> Carretera 120 km Merida-Valladolid, 97751 Chichén-Itzá, Mexico</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="https://www.booking.com/hotel/mx/villa-arqueologica-chichen-itza.en-gb.html?aid=306395&label=chichen-itza-W%2ASUoZZbA4WzoimYyPS2KwS386905476366%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2545171501%3Alp20453%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&sid=127a39173d08d80076e38d139d702390&dest_id=-1657009;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=7;hpos=7;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1689834928;srpvid=d5962e57553a03cc;type=total;ucfs=1&#hotelTmpl" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.booking.com/searchresults.en-gb.html?aid=306395&label=chichen-itza-W%2ASUoZZbA4WzoimYyPS2KwS386905476366%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2545171501%3Alp20453%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&gclid=EAIaIQobChMIopjk0tWcgAMV7heDAx3Rgwj7EAAYASAAEgKybfD_BwE&dest_type=city&redirected=1&dest_id=-1657009&source=city&redirected_from_city=1&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">For more Details click here</a>
+
+
+            <br>
+            <br>
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places<h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Tulum" target="_blank"><img src="https://www.cancunadventure.net/images/mayanruins/tulum.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Jungala Aqua Experience </p>
+                    </div>
+
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Ik_Kil" target="_blank"><img src="https://tse4.mm.bing.net/th?id=OIP.-zA3gmnmrOtbWNmqAIAJfwHaFj&pid=Api&P=0&h=180" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline col-12">Cenote Ik kil</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.chichenitza.com/temple-of-the-warriors" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/83/71/c5/photo0jpg.jpg?w=2200&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Temple of the Warriors</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/%C3%81lex_de_la_Iglesia" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/89/4b/69/la-iglesia.jpg?w=1400&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">La Iglesia</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Priest-King_(sculpture)" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/5a/f4/7f/photo1jpg.jpg?w=1400&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Temple of the Bearded Man</p>
+
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Allan_Quatermain_and_the_Temple_of_Skulls" target="_blank"><img src="https://www.touropia.com/gfx/d/things-to-see-in-chichen-itza/temple_of_the_skulls.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Temple of the Skulls</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.chichenitza.com/mayan-ball-game" target="_blank"><img src="https://www.touropia.com/gfx/d/things-to-see-in-chichen-itza/main_ball_court.jpg" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Main Ball Court</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.chichenitza.com/the-thousand-columns-group" target="_blank"><img src="https://www.chichenitza.com/public/assets/img/ruins/the-thousand-columns-chichen-itza.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Hall of the Thousand Columns</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Chacmool" target="_blank"><img src="https://www.planetware.com/photos-large/MEX/mexico-chichen-itza-tomb-of-chac-mool.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Tomb of Chacmool</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://commons.wikimedia.org/wiki/File:188b-The_Nunnery_-_Chichen-Itza.jpg" target="_blank"><img src="https://www.planetware.com/photos-large/MEX/mexico-chichen-itza-nunnery.jpg" height="100px" width="100px" class="bor" /></a>
+                        <p class="hoverline">The Nunnery</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.chichenitza.com/the-chinchanchob" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/38/8a/f6/the-red-house-face-obervatorio.jpg?w=400&h=300&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Red House Chichanchob</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.chichenitza.com/blog/balankanche-the-sacred-cave" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/af/f0/33/balankanche-cave.jpg?w=2000&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Balankanche Cave</p>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <a href="https://pickyourtrail.com/blog/top-places-of-chichen-itza/" target="_blank">For more info click here</a>
+        </div>
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="sectionPetra">
+        <div class="Great">
+            <h2 class="name">Petra</h2>
+            <a href="https://www.google.com/maps/search/petra+map/@30.2822212,35.4260033,13z/data=!3m1!4b1?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.twowanderingsoles.com/wp-content/uploads/2022/09/IMG_3324.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn1.matadornetwork.com/blogs/1/2016/03/petra-jordan25-940x940.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators2" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators2" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                Petra is an ancient city that lies in present-day Jordan and dates back to the fourth century B.C. Ruins of the once-great metropolis and trading center now serve as an important archeologic site and tourist attraction.
+                <br>
+                The name Petra originates from the Greek word 'petros' which means rocks. Petra is also known as Al-Batra in Arabic. Between 1BC and 8 AD, Petra experienced severe earthquakes and in 362 AD half of the city was destroyed.
+                <br>
+                Petra is the spot where Moses struck a rock with his staff and water came forth, and where Moses' brother, Aaron, is buried, at Mount Hor, known today as Jabal Haroun or Mount Aaron.
+                <hr>
+            </div>
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+            </div>
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Hotels and Restaurant's<h5>
+            </div>
+
+            <div class="message">
+                <img src="https://pix8.agoda.net/hotelImages/34491880/0/0ea1b00d9c62fac81fd44edceca096de.jpg?ce=0&s=1024x768&isSkia=true" class="ki">
+
+                <h2 class="hoverline">La Maison Hotel</h2>
+                ⭐ 4.7
+                <p>Off Tourist Street, behind Moevenpick Hotel, facing visitors center parking & entrance gate, Wadi Mu, Petra World Heritage Site, Petra, Jordan</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+                <div class="buttons0">
+                    <form action="https://www.booking.com/hotel/it/la-maison-siracusa1.en-gb.html?aid=311984&label=la-maison-siracusa1-lFCOQj93DgTSqtHv_S60_QS590032914892%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454564987%3Akwd-216611396%3Alp9147370%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXdX6HrtnYy-Ml68sH-ljtU&sid=127a39173d08d80076e38d139d702390&dest_id=-129785;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1689849420;srpvid=0ffb4aa5a73300e4;type=total;ucfs=1&#hotelTmpl" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://pix8.agoda.net/hotelImages/34491880/0/44ee6ab18dc4c8b41e4400e7a2e30a16.jpg?ce=0&s=512x384" class="kl">
+
+                <h2 class="hoverline">Bauthentic Boutique</h2>
+                ⭐ 4.0
+                <p>CHJ2+C54, Beigou Village, Huairou District, Petra City,Petra, Jordan.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons1">
+                    <form action="https://www.booking.com/hotel/jo/hospitable-comfortable-guesthouse.en-gb.html" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.ur0oETrBrtbXiNmv9VbLcQHaFk&pid=Api&P=0&h=180" class="ki">
+
+                <h2 class="hoverline">Seven Wonders Luxury Camp</h2>
+                ⭐ 4.8
+                <p>Wadi Musa, Petra, Jordan</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons2">
+                    <form action="https://www.agoda.com/seven-wonders-luxury-camp/hotel/all/petra-jo.html" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://ak-d.tripcdn.com/images/0204x1200045qdefs9049_R_960_660_R5_D.jpg" class="ki">
+
+                <h2 class="hoverline">Petra Moon Hotel</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p>Petra Visitor Center Street, 71882 Wadi Musa, Jordan</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="http://buckcommune.hotels-inbeijing.com/" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.booking.com/hotel/jo/petra-moon.en-gb.html?aid=324798&label=petra-65hkTHjVhE22zeMxPLfDvQS553330936774%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-156030170%3Alp9300921%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcWHiCDB7igB8XpJKYgu4TM&sid=127a39173d08d80076e38d139d702390" target="_blank">For more Details click here</a>
+
+
+            <br>
+            <br>
+
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places<h5>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Siq" target="_blank"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/8e/b6.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Siq</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Treasury" target="_blank"><img src="https://www.holidify.com/images/cmsuploads/compressed/49357000657501817d318k_20220711215739.jpg" height="100px" width="100px" class="bor">
+
+                        </a>
+                        <p class="hoverline">The treasury</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://universes.art/en/art-destinations/jordan/petra/royal-tombs" target="_blank"><img src="https://madainproject.com/content/media/collect/urn_tomb_47282.jpg" height="100px" width="100px" class="bor">
+
+                        </a>
+                        <p class="hoverline">Royal Tombs</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.visitpetra.jo/DetailsPage/VisitPetra/LocationsInPetraDetailsEn.aspx?PID=7" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/eb/c4/06/street-of-facades.jpg?w=300&h=-1&s=1 height=" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Streets of Facades</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Great_Temple_(Petra)" target="_blank"><img src="https://lh3.googleusercontent.com/p/AF1QipNtnpoGawT1WXIltx1VQS1GuvyG8J24spZpjgu-=s1360-w1360-h1020" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Great Temple</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Monastery" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vista_aerea_del_Monasterio_de_El_Escorial.jpg/413px-Vista_aerea_del_Monasterio_de_El_Escorial.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The monastery </p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Tomb_of_Aaron_(Jordan)" target="_blank"><img src="https://madainproject.com/content/media/collect/aaron_tomb_73725.jpg" height="100px" width="100px" class="bor">
+
+                        </a>
+                        <p class="hoverline">Tomb of Aaron</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.wikidata.org/wiki/Q57706783" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/20100925_petra294.JPG/330px-20100925_petra294.JPG" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Lion Triclinium</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <a href="https://www.thrillophilia.com/places-to-visit-in-china" target="_blank">For more info click here</a>
+        </div>
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="sectionMachu">
+        <div class="Great">
+            <h2 class="name">Machu Picchu</h2>
+            <a href="https://www.google.com/maps/place/Machu+Picchu/@-13.2263308,-72.4995102,17z/data=!3m1!4b1!4m6!3m5!1s0x916d9a5f89555555:0x3a10370ea4a01a27!8m2!3d-13.2263308!4d-72.4973215!16zL20vMGtyZnk?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cms.valenciatravelcusco.com/media/images/package/sacred-valley-and-machu-picchu-by-train_Z4e2XgX.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.mos.cms.futurecdn.net/nJrCVssbXNf62CqZDPC8R4.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators3" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators3" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge. Often referred to as the "Lost City of the Incas", it is the most familiar icon of the Inca Empire.
+                <br>
+                More than 7,000 feet above sea level in the Andes Mountains, Machu Picchu is the most visited tourist destination in Peru. A symbol of the Incan Empire and built around 1450AD, Machu Picchu was designated a UNESCO World Heritage Site in 1983 and was named one of the New Seven Wonders of the World in 2007.
+                <br>
+                Historians say explorers got it wrong: It's not Machu Picchu, it's Huayna Picchu. The Inca citadel known as Machu Picchu is pictured with the Huayna Picchu mountain in the background. Peru's Machu Picchu is more than 600 years old and yet, experts continue to learn new things about the iconic archaeological site.
+                <hr>
+            </div>
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+                <div class="something d-flex flex-row">
+                    🔍
+                    <h5 class="name1">Hotels and Restaurant's</h5>
+                </div>
+            </div>
+
+            <div class="message">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2d/7a/87/tierra-viva-machu-picchu.jpg?w=700&h=-1&s=1" class="ki">
+
+                <h2 class="hoverline">Tierra Viva Machu Picchu Hotel</h2>
+                ⭐ 4.7
+                <p>Located 800 metres from Machu Picchu Hot Spring, Hotel Machupicchu Inn offers 3-star accommodation in Machu Picchu and features a restaurant.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+                <div class="buttons0">
+                    <form action="https://www.booking.com/searchresults.en-gb.html?aid=311984&label=gringo-bill-s-IpEXI67WacpQdEntskroggS383033403035%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-24443812947%3Alp9147349%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O51m4Ge68sOW8&gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zMbS-hYWaUW5_hlIYLoS8HkbVmAAi8qTa8ejOJbhPlIr8HoYl3JX8MaAiDpEALw_wcB&highlighted_hotels=383705&redirected=1&city=-353770&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=2f79c04c5dc28452f12b2efa6155e267" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/13/41/81/ef/brickyard-retreat-at.jpg" class="kl">
+                <h2 class="hoverline">Gringo Bill's Boutique Hotel</h2>
+                ⭐ 4.0
+                <p>Featuring a hot tub, an organic restaurant and a Pisco bar, Gringo Bill's Hotel offers rooms with free Wi-Fi and plasma TVs in Machupicchu. Breakfast is provided. Vert big room, great comfy beds.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+                <div class="buttons1">
+                    <form action="https://www.booking.com/hotel/pe/gringo-bill-s.en-gb.html?aid=311984&label=gringo-bill-s-IpEXI67WacpQdEntskroggS383033403035%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-24443812947%3Alp9147349%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O51m4Ge68sOW8&sid=2f79c04c5dc28452f12b2efa6155e267&dest_id=-353770;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1690103569;srpvid=6f5e40c7e74c008c;type=total;ucfs=1&#hotelTmpl" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/309714618.jpg?k=cf15fa21a64c02a82e52c26008bbf9c810d8e12be1dc31ef7f54ffec4177259b&o=&hp=1" class="ki">
+
+                <h2 class="hoverline">Inkas Land</h2>
+                ⭐ 4.8
+                <p> Calle Chaska Tika #111, Machu Picchu, Peru</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons2">
+                    <form action="https://www.booking.com/hotel/pe/inkas-land.en-gb.html?aid=356980&label=gog235jc-1DCAsosQFCCmlua2FzLWxhbmRIM1gDaGyIAQGYAQm4ARfIAQ_YAQPoAQGIAgGoAgO4ArTg86UGwAIB0gIkZTk0MmUyYjctM2Q3ZC00M2ViLThkZDEtZTIyNDMzNTU4Mjlh2AIE4AIB&sid=127a39173d08d80076e38d139d702390&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://ak-d.tripcdn.com/images/0204x1200045qdefs9049_R_960_660_R5_D.jpg" class="ki">
+                <h2 class="hoverline">Illary Inn</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p> Calle Kory Wakanki B11, Machu Picchu, Peru</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="https://www.booking.com/hotel/pe/illary-inn-cusco.en-gb.html?aid=306395&label=machupicchu-V944HmIVSXB6QXITzvDGrgS392664035265%3Apl%3Ata%3Ap195%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-247401169%3Alp1007742%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&sid=127a39173d08d80076e38d139d702390&all_sr_blocks=267101601_340063995_2_1_0;checkin=2023-08-16;checkout=2023-08-17;dest_id=-353770;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=267101601_340063995_2_1_0;hpos=1;matching_block_id=267101601_340063995_2_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=267101601_340063995_2_1_0__2839;srepoch=1690105433;srpvid=5a1c446b98620052;type=total;ucfs=1&#hotelTmpl" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.booking.com/searchresults.en-gb.html?aid=306395&label=machupicchu-V944HmIVSXB6QXITzvDGrgS392664035265%3Apl%3Ata%3Ap195%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-247401169%3Alp1007742%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&sid=127a39173d08d80076e38d139d702390&checkin=2023-08-16&checkout=2023-08-17&dest_id=-353770&dest_type=city&srpvid=5a1c446b98620052&track_hp_back_button=1#hotel_2671016-back" target="_blank">For more Details click here</a>
+
+            <br>
+            <br>
+
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.peru-machu-picchu.com/central-plaza.php" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383185/14-Tourist-Attractions-In-Machu-Picchu-Central-Plaza/14-Tourist-Attractions-In-Machu-Picchu-Central-Plaza.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Central Plaza</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/High_priest" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383217/14-Tourist-Attractions-In-Machu-Picchu-Priest-House/14-Tourist-Attractions-In-Machu-Picchu-Priest-House.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">House of the High Priest</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.expedia.co.in/Hut-Of-The-Caretaker-Of-The-Funerary-Rock-Machu-Picchu.d553248621532375047.Attraction" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383202/14-Tourist-Attractions-In-Machu-Picchu-Guardian-House/14-Tourist-Attractions-In-Machu-Picchu-Guardian-House.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Hut of the Caretaker of the Funerary Rock</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Inca_Bridge" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383196/14-Tourist-Attractions-In-Machu-Picchu-Drawbridge/14-Tourist-Attractions-In-Machu-Picchu-Drawbridge.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Inca Drawbridge</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Intihuatana" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Intihuatana%2C_Machu_Picchu.jpg/330px-Intihuatana%2C_Machu_Picchu.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Intihuatana</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Inti_Punku" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Camino-inca-dia4-c04.jpg/330px-Camino-inca-dia4-c04.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Inti Punku</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Machu_Picchu" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383223/14-Tourist-Attractions-In-Machu-Picchu-Principal-Temple/14-Tourist-Attractions-In-Machu-Picchu-Principal-Temple.jpg" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Principal Temple </p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://madainproject.com/royal_tombs_(petra)" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383228/14-Tourist-Attractions-In-Machu-Picchu-Royal-Tomb/14-Tourist-Attractions-In-Machu-Picchu-Royal-Tomb.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Royal Tomb</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.ticketmachupicchu.com/sacred-rock-machu-picchu/" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383207/14-Tourist-Attractions-In-Machu-Picchu-Magic-Rock/14-Tourist-Attractions-In-Machu-Picchu-Magic-Rock.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Sacred Rock</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.ticketmachupicchu.com/temple-of-the-condor-machu-picchu/" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383191/14-Tourist-Attractions-In-Machu-Picchu-Condor-Temple/14-Tourist-Attractions-In-Machu-Picchu-Condor-Temple.jpg" height="100px" width="100px" class="bor" />
+                        </a>
+                        <p class="hoverline">Temple of the Condor</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.ticketmachupicchu.com/sun-temple-in-machu-picchu/" target="_blank"><img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1626383234/14-Tourist-Attractions-In-Machu-Picchu-Sun-Temple/14-Tourist-Attractions-In-Machu-Picchu-Sun-Temple.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Temple of the Sun</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Temple_of_the_Moon_(Peru)" target="_blank"><img src="https://imachupicchu.com/wp-content/uploads/templo-luna-huayna-picchu.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Temple of the Moon</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="https://www.tripadvisor.in/Attractions-g294318-Activities-Machu_Picchu_Sacred_Valley_Cusco_Region.html" target="_blank">For more info click here</a>
+            </div>
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="sectionchrist">
+        <div class="Great">
+            <h2 class="name">Christ the Redeemer</h2>
+            <a href="https://www.google.com/maps?client=firefox-b-d&output=search&q=christ+the+redeemer&entry=mc&sa=X&ved=2ahUKEwiH1Iit0KSAAxWGXmwGHc_UB6UQ0pQJegQICxAB" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/330px-Christ_the_Redeemer_-_Cristo_Redentor.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.thoughtco.com/thmb/S3YU2hCvC0z8lhnKFK8yYmUQ8H0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/christredeemer-10139156-567c92283df78ccc15684502.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQysMFemmQ5kusH2nuytrCqho3JhmPluGr_1w&usqp=CAU" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators5" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators5" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                Christ the Redeemer, a colossal statue of Jesus Christ, holds a prominent position in Rio de Janeiro, Brazil. Designed by Brazilian engineer Heitor da Silva Costa and sculpted by French artist Paul Landowski, construction of the statue began in 1922 and concluded in 1931. Perched atop Corcovado mountain in the Tijuca Forest National Park, the imposing figure of Christ stands at a towering height of approximately 98 feet (30 meters) with its arms extending over 92 feet (28 meters) wide. Embodying profound religious significance, Christ the Redeemer is an iconic Christian symbol, portraying Jesus Christ with outstretched arms, symbolizing peace and welcome to the world. Its representation of the Savior has made it a popular destination for religious pilgrims and tourists from across the globe. In 2007, the statue, together with the picturesque Rio de Janeiro landscape, was designated as a UNESCO World Heritage Site, acknowledging its cultural and historical importance. To reach the statue, visitors can opt for a train or van ride that ascends the scenic Corcovado mountain. Once at the summit, they are rewarded with breathtaking panoramic views of Rio de Janeiro and its surroundings. By night, Christ the Redeemer comes to life as it is beautifully illuminated, creating a captivating sight visible from various vantage points in the city. Throughout the years, the statue has undergone several restoration and maintenance efforts to ensure its structural integrity and preserve its iconic appearance. A symbol of Brazil's hospitality and faith, Christ the Redeemer continues to attract millions of visitors, leaving them in awe of its magnificence and the remarkable view it offers of Rio de Janeiro.
+                <hr>
+            </div>
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+                <div class="something d-flex flex-row">
+                    🔍
+                    <h5 class="name1">Hotels and Restaurant's</h5>
+                </div>
+            </div>
+
+            <div class="message">
+                <img src="https://newprojects.99acres.com/projects/kay_invest/great_wall_hotel/images/n71b8o7a.jpg" class="ki">
+
+                <h2 class="hoverline">Apartamento Parque Jardim Europa</h2>
+                ⭐ 4.7
+                <p>Situated in Rio de Janeiro, 2.5 km from Botafogo Beach, Apartamento Parque Jardim Europa features accommodation with an outdoor swimming pool, free WiFi and a 24-hour front desk.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons0">
+                    <form action="https://www.booking.com/hotel/br/parque-jardim-europa.pt-br.html" target="_blank">
+                        <button class="btn btn-primary bold buy">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/13/41/81/ef/brickyard-retreat-at.jpg" class="kl">
+                <h2 class="hoverline">Casa Caminho do Corcovado</h2>
+                ⭐ 4.0
+                <p>Casa Caminho do Corcovado offers rustic-style accommodation inside the Tijuca National Park in Rio de Janeiro, in Cosme Velho District.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons1">
+                    <form action="https://www.booking.com/hotel/br/casa-caminho-do-corcovado.pt-br.html?aid=356980&label=gog235jc-1DCAsoIEIZY2FzYS1jYW1pbmhvLWRvLWNvcmNvdmFkb0gzWANobIgBAZgBLbgBF8gBD9gBA-gBAYgCAagCA7gCroz0pQbAAgHSAiRjNzE0Y2JlYS0zMjY5LTRmZjEtOTJhMS01YjAwMmRlMmFiMTHYAgTgAgE&sid=127a39173d08d80076e38d139d702390&dist=0&group_adults=2&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold buy">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/309714618.jpg?k=cf15fa21a64c02a82e52c26008bbf9c810d8e12be1dc31ef7f54ffec4177259b&o=&hp=1" class="ki">
+
+                <h2 class="hoverline">Pousada Rio144</h2>
+                ⭐ 4.8
+                <p>Featuring sea views, Pousada Rio144 in Rio de Janeiro features accommodation, an outdoor swimming pool, a garden, a terrace and a bar. Free WiFi is available throughout the property.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons2">
+                    <form action="https://www.booking.com/searchresults.en-gb.html?aid=360920&label=New_English_EN_ALL-GBIECAUS_6409071846-3U_mTqNWJowyqDkTVweKSgS60966726966%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&gclid=EAIaIQobChMI1pymx9SkgAMVJIBLBR392gqIEAAYASAAEgJFt_D_BwE&highlighted_hotels=8488294&checkin=2023-08-16&redirected=1&city=-666610&hlrd=without_av&source=hotel&checkout=2023-08-17&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">
+                        <button class="btn btn-primary bold buy">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://ak-d.tripcdn.com/images/0204x1200045qdefs9049_R_960_660_R5_D.jpg" class="ki">
+                <h2 class="hoverline">Atlantic Hotel Copacabana</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p>Rua Siqueira Campos, 90 - Copacabana, Rio de Janeiro - RJ, 22071-032, Brazil•+55 21 2548-0011</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="https://www.booking.com/searchresults.en-gb.html?aid=360920&label=New_English_EN_ALL-GBIECAUS_6409071846-3U_mTqNWJowyqDkTVweKSgS60966726966%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&gclid=EAIaIQobChMIzN64ktWkgAMVgZhmAh2FRwKjEAAYASAAEgKV5_D_BwE&highlighted_hotels=16762&checkin=2023-08-16&redirected=1&city=-666610&hlrd=with_av&source=hotel&checkout=2023-08-17&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.booking.com/landmark/br/christ-the-redeemer.html?aid=360920;label=New_English_EN_ALL-GBIECAUS_6409071966-jnxAxn73*agQl7JDfvwgSQS60966727326:pl:ta:p1:p2:ac:ap:neg;ws=&gclid=EAIaIQobChMIq86Yr9WkgAMVYJlmAh3bOQvWEAAYASAAEgITSPD_BwE" target="_blank">For more Details click here</a>
+
+            <br>
+            <br>
+
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d311277-Reviews-Botanical_Garden-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c7/19/8d/foto-alexandre-machado.jpg?w=1400&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Botanical Garden</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d6868569-Reviews-Rio4Fun-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ee/8e/1c/getlstd-property-photo.jpg?w=1000&h=-1&s=1" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Rio4Fun</p>
+
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d311247-Reviews-Sugarloaf_Mountain-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/8d/fc/12/foto-oficial.jpg?w=1400&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Sugarloaf Mountain</p>
+                        </a>
+                    </div>
+
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d311472-Reviews-Parque_Lage-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/3b/fe/d5/parque-lage.jpg?w=2000&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Parque Lage</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.tripadvisor.in/Attraction_Review-g303506-d552651-Reviews-Arpoador_beach-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/65/5c/a5/photo3jpg.jpg?w=2200&h=-1&s=1" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Arpoador beach</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Ipanema" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8c/14/06/ipanema.jpg?w=1200&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Ipanema Beach</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Copacabana_Rooftop_View.jpg" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Copacabana Beach</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://riotur.rio/que_fazer/parque-natural-municipal-da-catacumba/)" target="_blank"><img src="https://tse2.mm.bing.net/th?id=OIP.IlnH87FWF2c4EapZelR3TAAAAA&pid=Api&P=0&h=180" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Parque Natural Municipal da Catacumba</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="https://www.tripadvisor.in/AttractionsNear-g303506-d554128-Corcovado_Christ_the_Redeemer-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html" target="_blank">For more info click here</a>
+            </div>
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary" onclick="display('sectionhome')">Home</button>
+        </div>
+
+
+    </section>
+    <section id="sectionColo">
+        <div class="Great">
+            <h2 class="name">Colosseum</h2>
+            <a href="https://www.google.com/maps/place/Colosseum/@41.8902102,12.4900422,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61b6532013ad:0x28f1c82e908503c4!8m2!3d41.8902102!4d12.4922309!16zL20vMGQ1cXg?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.mos.cms.futurecdn.net/BiNbcY5fXy9Lra47jqHKGK.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://fullsuitcase.com/wp-content/uploads/2023/03/Colosseum-tickets-tours-and-different-levels-explained.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.ticketsrome.com/images/immagini_pagine/Colosseum-Night-Tour.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators6" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators6" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                The Colosseum in Rome, Italy, is a large amphitheater that hosted events like gladiatorial games. Design Pics Inc. The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.
+                <br>
+                The Colosseum was built as part of an imperial effort to revitalize Rome after the tumultuous year of the four emperors, 69 CE. As with other amphitheatres, the emperor Vespasian intended the Colosseum to be an entertainment venue, hosting gladiator fights, animal hunts, and even mock naval battles.
+                <br>
+                Severe damage was inflicted on the Colosseum by the great earthquake in 1349, causing the outer south side, lying on a less stable alluvial terrain, to collapse. Much of the tumbled stone was reused to build palaces, churches, hospitals and other buildings elsewhere in Rome.
+                <hr>
+            </div>
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+                <div class="something d-flex flex-row">
+                    🔍
+                    <h5 class="name1">Hotels and Restaurant's</h5>
+                </div>
+            </div>
+
+            <div class="message">
+                <img src="https://newprojects.99acres.com/projects/kay_invest/great_wall_hotel/images/n71b8o7a.jpg" class="ki">
+
+                <h2 class="hoverline">La Calla al Colosseo</h2>
+                ⭐ 4.7
+                <p>Situated conveniently in Rione Monti of Rome, La Calla al Colosseo features a garden and free WiFi.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons0">
+                    <form action="https://www.booking.com/hotel/it/quot-la-calla-quot.en-gb.html?aid=356980&label=gog235jc-1DCAsocUIScXVvdC1sYS1jYWxsYS1xdW90SDNYA2hsiAEBmAEJuAEXyAEP2AED6AEBiAIBqAIDuAKzqfSlBsACAdICJGE2NDg1Y2QxLTlmZjctNGIwMi04YmExLTFkZGFiYTZkMTQyNdgCBOACAQ&sid=127a39173d08d80076e38d139d702390&dist=0&group_adults=2&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/13/41/81/ef/brickyard-retreat-at.jpg" class="kl">
+                <h2 class="hoverline">Imperial Rhome Guest House</h2>
+                ⭐ 4.0
+                <p>Imperial Rhome Guest House is well located in Rome, and features a terrace, free WiFi and a bar. The property is close to Coliseum, Santa Maria Maggiore and Palatine Hill.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 4-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>🏋️ Fitness Center</td>
+                        <td>🧖‍♀️ Spa Facility</td>
+                    </tr>
+                    <tr>
+                        <td>🍽️ Restaurant</td>
+                        <td>✈️ Airport Shuttle</td>
+                        <td>👶 Child-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons1">
+                    <form action="https://www.booking.com/searchresults.en-gb.html?aid=311984&label=rhome-guesthouse-affittacamere-acfYGzryja110bVwhdOyygS589958358222%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-646790493298%3Alp1007742%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXdX6HrtnYy-Ml68sH-ljtU&gclid=EAIaIQobChMI2OPVzdOngAMV2ZNmAh336gNJEAAYASAAEgJaSPD_BwE&highlighted_hotels=3948144&redirected=1&city=-126693&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">
+                        <button class="btn btn-primary bold oil">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/309714618.jpg?k=cf15fa21a64c02a82e52c26008bbf9c810d8e12be1dc31ef7f54ffec4177259b&o=&hp=1" class="ki">
+                <h2 class="hoverline">Dolce Casa Colosseo</h2>
+                ⭐ 4.8
+                <p>Right in the centre of Rome, Dolce Casa Colosseo has garden views from the balcony.
+                    <br>
+                    The accommodation is less than 1 km from the Santa Maria Maggiore and features free WiFi throughout the property.
+                </p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons2">
+                    <form action="https://www.booking.com/hotel/it/dolce-casa-colosseo.en-gb.html?aid=356980&label=gog235jc-1DCAsocUITZG9sY2UtY2FzYS1jb2xvc3Nlb0gzWANobIgBAZgBCbgBF8gBD9gBA-gBAYgCAagCA7gC1LD6pQbAAgHSAiQ1ZWRkOTA0Yy01OTJkLTQ5YWEtYjUyMS1mNGQ3YTdmNTkyYWTYAgTgAgE&sid=127a39173d08d80076e38d139d702390&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                        <button class="btn btn-primary bold oil">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="message">
+                <img src="https://ak-d.tripcdn.com/images/0204x1200045qdefs9049_R_960_660_R5_D.jpg" class="ki">
+                <h2 class="hoverline">
+                    Colosseum Corner</h2>
+                <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                ⭐ 4.7
+                <p>Colosseum Corner is set in the Rione Monti district in the centre of Rome, 250 metres from the Coliseum. WiFi is free throughout and the rooms are elegant and modern.</p>
+                <style>
+                    th,
+                    td {
+                        padding: 10px;
+                    }
+                </style>
+                <table style="width:100%">
+                    <tr>
+                        <td> 🛌🏽 3-star hotel</td>
+                        <td>☕ Breakfast</td>
+                        <td> ᯤ Free Wifi</td>
+                    </tr>
+                    <tr>
+                        <td> 🚕 Free Parking</td>
+                        <td>❄️ Air Conditioning</td>
+                        <td>🐕 Pet-friendly</td>
+                    </tr>
+                </table>
+
+                <div class="buttons3">
+                    <form action="https://www.booking.com/searchresults.en-gb.html?aid=311984&label=b-amp-b-colosseum-corner-%2Abi9DUDOFFQNIGkTvrgBXAS541168183188%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-369232182927%3Alp9300921%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXwxhKG0pUU-mcMVT-JwQpc&gclid=EAIaIQobChMImJS4jdSngAMV9JlmAh3IXQdNEAAYASAAEgIYsfD_BwE&highlighted_hotels=1699922&checkin=2023-08-16&redirected=1&city=-126693&hlrd=without_av&source=hotel&checkout=2023-08-17&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">
+                        <button class="btn btn-primary bold oil">View Offers</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.booking.com/landmark/it/colosseum.en.html?aid=314920;label=colosseum-BGKGNd3h1xDG0gCuLAczCQS275188341584:pl:ta:p1:p2:ac:ap:neg:fi:tiaud-1110454565747:kwd-325348169:lp1007742:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8;ws=&gclid=EAIaIQobChMIhcfxuOOkgAMV0ZNmAh2bYQH4EAAYASAAEgJbk_D_BwE" target="_blank">For more Details click here</a>
+
+
+            <br>
+            <br>
+
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Trevi_Fountain" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg/450px-Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Trevi Fountain</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Roman_Forum" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/405px-Foro_Romano_Musei_Capitolini_Roma.jpg" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Roman Forum</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Pantheon,_Rome" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pantheon_Rom_1_cropped.jpg/405px-Pantheon_Rom_1_cropped.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Pantheon,Rome</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Piazza_Navona" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Piazza_Navona_%28Rome%29_at_night.jpg/405px-Piazza_Navona_%28Rome%29_at_night.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Piazza Navona</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Spanish_Steps" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Piazza_di_Spagna_%28Rome%29_0004.jpg/405px-Piazza_di_Spagna_%28Rome%29_0004.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Spanish Steps</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Santa_Maria_Maggiore" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Basilica_di_Santa_Maria_Maggiore_-_Roma.jpg/405px-Basilica_di_Santa_Maria_Maggiore_-_Roma.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Santa Maria Maggiore</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/San_Giovanni_in_Laterano_-_Rome.jpg/405px-San_Giovanni_in_Laterano_-_Rome.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Archbasilica of Saint John Lateran</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.britannica.com/topic/Sistine-Chapel" target="_blank"><img src="https://cdn.britannica.com/77/2577-004-DA7549AE/The-Creation-of-Adam-ceiling-fresco-Michelangelo.jpg?s=1500x700&q=85" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Sistine Chapel</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <a href="https://theromanguy.com/italy-travel-blog/rome/colosseum/top-things-to-do-and-see-near-the-colosseum-in-rome/" target="_blank">For more info click here</a>
+
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+        </div>
+    </section>
+    <section id="sectionAgra">
+        <div class="Great">
+            <h2 class="name">Taj Mahal</h2>
+            <a href="https://www.google.com/maps/place/Taj+Mahal/@27.1751448,78.0399535,17z/data=!3m1!4b1!4m6!3m5!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.0421422!16zL20vMGw4Y2I?entry=ttu" target="_blank" style="font-weight:bold">Visit Here</a>
+            <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="data:image/jpeg;base64,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" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.natgeofe.com/n/8eba070d-14e5-4d07-8bab-9db774029063/93080_2x3.jpg" height="400px" width="500px" class="round">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.holidify.com/blog/wp-content/uploads/2015/02/album_pic20.jpg" height="400px" width="500px" class="round">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators7" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators7" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+            <div class="matter">
+                The Taj Mahal is a mausoleum complex in Agra, western Uttar Pradesh state, northern India. It is considered the finest example of Mughal architecture (a blend of Indian, Persian, and Islamic styles). The Taj Mahal is also one of the world's most iconic monuments, visited by millions of tourists each year. The complex was designated a UNESCO World Heritage site in 1983.
+                <br>
+                It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal with construction starting in 1632 AD and completed in 1648 AD, with the mosque, the guest house and the main gateway on the south, the outer courtyard and its cloisters were added subsequently and completed in 1653 AD.
+                <br>
+                The Taj Mahal is a mausoleum complex that houses the tombs of Mumtaz Mahal (“Chosen One of the Palace”) and her husband, the Mughal emperor Shah Jahān (reigned 1628–58).
+                <hr>
+            </div>
+            <div class="Nearby">
+                <h1>NEAR BY..........</h1>
+                <div class="something d-flex flex-row">
+                    🔍
+                    <h5 class="name1">Hotels and Restaurant's</h5>
+                </div>
+                <div class="message">
+
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcVFRQYGBcZGxgaGRkZGiMZGhwgGyAhGiEZIRwcICwkGiIoIBkcJDUkKC0vMjIyGiI4PTgxPCwxMi8BCwsLDw4PHRERHTMpIykzMTMzMTEzMzExNDExMTExMTExMTEzMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAOIA3wMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgABB//EAEkQAAIBAgQDBQMIBgkEAQUBAAECEQADBBIhMQVBURMiYXGBMpGhBiNCscHR0vAUUlNikuEVM3KCg5Oi0+JDY7LxRDRUc6PjB//EABoBAAMBAQEBAAAAAAAAAAAAAAECAwAEBQb/xAAxEQACAgEDAgQEBgEFAAAAAAAAAQIRAxIhMQRBEyJhcRQyM1GBkaHB4fAjBTRSsdH/2gAMAwEAAhEDEQA/AEBrq4iuivoT5I9FSFcBUgKwrPQakDXgFSVdaYRntM8Nw+VDEgbaGdR76hZ4eSJO+nlTcWQRLb8vCoZMnZM68HTt7yQk4hZ7O4QDodRHQ0OJimeNwn0pnSlrLrVMcrRDNDTJ7UeTXknrXsV7lp7IkK6p5a7LWsxCuNTy12WtZiuuqUVxFazEDXhqUV4RWMRNeGpqhJAAknQD7KeYX5OOWTtNFIBaNxpt50k8kYfMy2LFPI6grENu0WIVRJOwFE3uGXUALW218CfzvW8wmFtWEItgmTJJ1PrFXnGDLqNa5JdW78q2PTh/py0+Z7+hkeDcMZTnuCDqADuI0J860IcQekRRN9e0t6bgiq1CoI9/OoSm5u2dePCsa0x4M3xZu8KXqJplj8LmYtNLjZYEiIrrxtaaPNzxlrbaFBFexUiK4Cug4bPAKmBXAVICsK2cBRWBthnANVrZaJymOsaVfhlgjTnQk9mPjXnVo1GCsDLG9RxyEDQV7hL4GlHM4YV5rk1Kz6GMYyhSMjiHbmfShikmtY+EtzOlepw23BMSTXQupilwcM+gnJ8mS7KpLbp/e4RLaHShsTgCkc6os0Wc8uinHdoU9nXFKcWuD3WUlbbQPCD6A6n0qi9gmUwwg9DTLNFurFfTSSuhblrzJR3ZVA26fWSeFgRSvDbow26iyUdYrxAoSostGC1RJ4NegHs21MAc/dyoPJFcsCwTl8qbAMDhy7qF3kekazX0K68JWOThOJttIRgYnQj7DTz9LcIAwAaNedcfU+dpppnq9Anji1JNMkt8hwDoOgo7FqrqGHLp40iOIOoga0Rh8V3csamoyg+TrhNbphWJvFBGnvpQ+NOutMbiG4o1j7aAbCIDqTPOmhXcXJqb24JI071K9ZUkGaHu3RMDYVRcxBBp0nexJySW4txeCc3CApg+6mPDuDqRNwa8hNOcwmp5q0s8mqQmPo4KVvcrThNsqFyAgajT7edU3fk4m6yDv/Km2Gc0Wg1mufxpxezO34bFJbxFmGwgCZSPOqk4WinMonw6U7C152dDxX9x308XW3AidkEjKRRCOpGoNM3witvXHCaQKzyJoKxSTFd+2Mvd1qFi8QIozEYXKDBNAI3nTxdolJOMi65ePKjeHYBTluXCSwMgbAdDQFu2WMKNTyp7hljSdt6SctKpFIR1O2H5ZoHiuHFxJMErJ8fKi3eF0oYtO9Qi2nZ0SSapmUfAXGYgIZ3oe5hGX2lI8xW2WK8u2Fb2gCOhrpXUtdjjl0cX3MMbFcMKTsPCts2FQbKv8IqC4dF2EU/xXoJ8Eu7FfC+EW0C3HkmJA2A/nTntBypTicQSxAOgqWHc9ahPVLds6MajDyxQ0uCaVYu4qgrH3+dX3sTA3pY7qx1NaERskuwsvvO201bgk70nQCjL5SOVL8RjRstdCk2qRyuKi7bD71zmKWXbs86HbEE6Cq7pIFGMaEnOyVx/Gg7l3kKmqnnXFRVEyEk2jSWVE616VAO9UG5OxqzMK53ydsaoLS9Rlq7SbNRNu7U5IrGQ6RqszUrt4xf1194qGOx4yd24AZGoIJ+M1CbUU2zoitTocgUobji5iAugJAJI1jSR4UgvYon9Yk/SnQ+MA/ZXjYVCyMc025KmNpBB566E1xZM7kttjqhiS53NdbxC3BlIg11nAKDMTG1I+1lNTEj6SlR5ztQqP/2zPPb76GPrJRjUtwT6aMnaNq78oioAQZFZdccwhRcKgAd0xp7x6+tOMBj17MZ7izruwBI+Hl6VeHURm6ROeFxVjK49VqooW5jU/aJ/EPvqsY1P2i/xD76tZKgw1Zm0oFcUn7RP4h99SfGW4/rE/iH30bRi97nSh8RckbGleI4oqkgEHbWRFLn4xceSsgDTuxuPOpyzQi6HjilJWML15VOrAeZj/wB1QnGLY0AJ8QI+s0ju4ks+s+JaD47D1qNzDLcRkfNDCDAI08wZFRydQ5bR2RTH06ju92Pb9/MJBMGgr1zpUUc5cswBscp9xJkCvLF7XVWMx+rp7jXTg6qNKMuTmzdLK248FN5n5zVGQ00xMGKoCV3KaOJ49wa2I1r3VjRK268YxsK1g0Atxao7IzRJBqxbY50ykI4ETigDrpv1P1LVL4s6EtknQd8rPpG9V4W4TbUvq2QzI1mheIWc5tTEQ0fDT6q8WWbJJ1JntRwwjvFDD9IIYKX13ym4ZPpG1XHOQoJgHXmfrpOUzXBcI1Bbx0llB9xB8qbi+srqNBUpSl9ysYr7Ay4lDcNvOQwncADx1iOY99OcLw2ydWuljHIAL/4yffSG1Zm5mmTMe/L+GnmGPeA5fyqc9lsPHcsxOE7PLBDLyI+ojlVd7N2tsCcvezaabaT01o1/ZPSJ92tDnGW8wA1me8BoIqKkx6GFod0UEUAYgbTp+elEpi7YA74oPtVnf4H7qVphRK/bBYEj6K0Hj2CQZ0y7AA6zHMc9KMa4GMgyIA91D4+12gEAmB8ZmmjzuZ8FVu5NvODp/ZHL0omzhLrgMttoPJgqH3PFEcICWkEk5pJ9knLPTTemY4knU/wt91UTQjsz1+26OFe2yzsxQZfINlifCaX43FBXyFu8dfZH4dK2R4laIgmQdwVYj6qynGsEDcLWwWUgRpBXWY1GvhTKr5BuU4NQbZJ11aT61Ph/9WfM1HDWXW1lKkNJ0r3CqVQgiDJ0pRiOE1dz4x7hV+MzCzcKe0A2WBJmNNOetDYBCpYtpPWmBxKKhJIMSYGpPkOdN3B2CcKvdPlVJsWiQblwBuQBEj31TiMdb7NgrKWIjKGE+cUrw474H52rJN7gsZ4rCoozK6ssa6CQPHqKp4Y63MzW8pAHNY9Oo86ItLmDJ1U0Bwq52RZdCDrMgUyez+4Gtwh2cLOWPHOfDwodsS3649/8qtxOIDKV0/iH55Uj/o7uZAVPenf93LtVY5Jf8icscfsMu2aR3+YnXl7ql+lgnl7xQNrClbvaR56+AH2V1xLxaUKgcwatDPOPDJS6eEuUFZWRYf2oM++vW7NguctoDoATv4gGh8VhUS65tKAp2jXQwYnzonABQGzRJPM+AH2VzN9zoX2CUa5AhVjl3W/FXue5+qvub8VXreWB3h7xQNx7hvd1ibeQyAJhp0M77elT5HLbLsX7wAgiIBHPxJppY9oUl4ct0KvaglvpGPE9NNoq/g9trd26zhgrMpSSW+jB0ju61pLZgTNAdj5Gk1prkbL7j+Kma4pDoJk/ut91JuK3nW3820OGTQQTGYBhB8CT4RUYJ3Q7YWGudF9x/FXM9zovuP4qXXsRc7S6A5y9kDbiPb70gHmdF0PXxonB4lmtWwzxcKJm9nNmIBPd1G86VRxoW7CsPcdQcw1JJ0GnxNTbHRoQfh+KhHNwb3CPRPwVHvbm765U/BW0WbUG/wBIfun/AE/ir39P8D/p/FQIk/8AUmP3U/BXgJ/afBfwVvDRtQcMd+6f9P465sZ+6ev0fx0EoJ2uT6L+Gukn6c+i/hreGjag0YgkaA+4fY1DM9yTAEHqP+VQDsNO025dz8NWKzDvF9PELGviB40dNGuyJa7+77j+KqLr3Oi+5vxUPcxVzt2UH5vspB0jPmIiesAaeNCJirxSzmmTPa90aaE6j6OsCmUWByPDcY3NQBpynqOpo3DDvr6/UaXWyWuaAk/k/VTO0jBpKnY8vA0WZDXCjvelKlZ+i/Gvfk+Gt5+0zAl7hEy2hOm2wjYcqCvXby9qQphVm3pMnKSeeusbxQ0+ZmvYLbP+qPjUIY6EAeRM1dZudxSzDNAnWNfKvHuL+sPfTWEpawOp95++vLeH13PvP31YXX9Ye8V7buLPtD3itYtHr4y5+ovub765cXcP0F9zffSPEcUdl7rQdST5evxqGE4o6xmbQjZtfifT49KGl1wR8RGhOMufqL/q++pWMRcYnRRp0J+2kh4w0yGkeen/AKpzwW+bhYwYj8iaVppbopCep0Fk3Oq/wn8VcDd6r/CfxUS5gGgeBYq5dtszxK3HTQECFYgb89KHayvegiz2uYQU9UMfBqFuYq6HYFEkHkGg02Qail+JaGYzzpLVhoobEXP1V9xqq3iXNxAVABPj9pqu3xEM0R5fzrg/z1ofvTTompJ7o9+UeNa2EyqCWnU7CI+8fGh8NxEnCvcZe8rARyPQ+G/w8aXfKi8/b21LEr85C+WXQUrs8RuPhrgCsgzpI3BBVjOo/dHwq8YeWxW/NQ9+TnGDeuOjqAQjMCOggEEeo+NIsXj7lxi2YgTooOgFJvktfdL7FGyk27w9yFh8VHupcyLnIIO/WPPlVViSZPxNro+kfJjHMxuJcM5ULAnUxsR40PwnjzXLqqUCgkRBJIkiNee45Vlvk7ee325QlT2Vzx9lWI5dRQ/ybZ1u5kmRGwnSZ+wUHi5YVk4RuOJcVZLrIqAgHWZk/HT4/ZWgZ/mgwEyEInxisHjMc7veDIyFCSHP0obLOo5+tazg153wwLHMYtx5ZEPLxJqOSNIrB2ELff8AUX3n7qrvYtwP6tfefuqjF4zsxJWTsBtJ6VQ+Lz2y3v8AWppb8Gc0nRDhV12uyMoMtvJ+j5in3zn7v8J/FWc+Tzzejxb/AMa1hU0Z7MMN0Czc/d/hP4qrdrkHRNj9E/ir3AYo3GuKQO4Qo6nSZ8N6JujunyNK9tmFbivt2/Zr/Efw1BsQ37Nf4j+GhuJ8RWyhZp8BzJ6ULgOMpdOUAg7jnMeXOqpOrElJJ0GtiG/Zj+L/AI1UcWwP9WP4/wDhS7Fceto5QySNCQNAelVY/jlu0QDJJAOnQ7Gm0v7COaM6vBsWBs8/2jUW4JiiQWViPOvqbcMQ+ytznsw/AelRODQEguPEZhPuGvT31TxGJ4Z8t/oHE8kYDwmtNwDAtbBV7bQSDJXw61rSllYE7cjIJ1/7kZvQ1Ti8RaQDMHAMxpH1Ag+80s5uWw8Y1vYpbi+E1+cTw1WhLGNwy/8AVtiSxIBG7GfpMYpn+mYbmpMaDTxn9TqTXlzF4URI9MvL+D6qFINsotcRwmk3bZ6yVIpLxTFWczG26A8shULtyFaJ8bhN2QToJydBH6leNjcGSTlBO5PZ8z5p1rJKwu2qMPa4g5MOVymZOZSI8prQ8CJa7bdV+bDauYVdiNCYza9Jpu1/CyGFtNwZNuTMzoculXHiVon2p/wz9o2oyd9hYxSOxVxxeDW8jhydMw0iPPf7Kpx929cs3GCIC8Lk7swQZh82WdB8aIwd9HupkMgTPdy8x4a86JGItrZLt7GYAHLrOo9n30nFD/cwPAeBXkulnVVXs7ok3EOrIVA7rHmaBufJ7EliezG/7RPxV9Gwd61dD5WYABRm7LYkyOk6KffVv6Iv7U/5J/FVPFdieGqMRwXgl4dqHVVz2riqTcQyzKwA0Y7k1H5O8JxNm7mKhQYBOdG056Biem1bgW1Ug9oW7yiOyImTG86aGh7OJt5wMzZtRBtka+c6VnkbTCoK0U4m9dV8ot5iIglh3tAdp03jWKvud6xczhQz9m2RWXQhbcgEmNCp91FOAbhGsiM2m3dB9dKD/S7YHtnb9kevn6VPke6MNxVnS4BEMPaDFVPhvFSt452Qq+QTGmZeWx1Pn7621w2XWHAuAHQPakDroTpvVRw+CjKbSxIOltRqAR08apqVVRJx3sy3Ab1tLjG46qCNJZfDofzFaK3xTC87qfxVcMPgYg2xG4Atgb7n2egFedngYg2wQNvml9eXXWg0mOmynC42y1x8jqxOoAIJPjE+VXXnWJAbN4SKstPg0MooUiQCLSjQmYmJ5mrX4vhgNWYx+4v4TypdO4b2PnnFcDeLaW7hEk6I3P0qOHwl0AEpcBJiMjbHSdvGt2mMVzGYn+yUM9IHtAadAa9bFWtAz5WP0WlTExMHwj3VXU0qJuKbswNvhNzMZW4NTqFPnOtVvwu/ceFtXCTsMh5D+VfTLNlGaAWIgGRcXWZEf1Z6VfZwtozPbDVhuh2JGndn4VvEdg0JlGKYn2zrOpKh/hcDZfSPKoXIUQWJAAkEtl1122+FTt4e4xZYCwZ9kCZHMLoZ0J195qd/BMAXJBIj+XOOlT4dD+pVaMKSrIoUxCg85Mez4UHirFy8barlB5sxJgkbgR3hPiKcpg5X2gAYJGg/O5/IMdZw2VwoYREg6GInr+daFoO5mDhLxyd22CCCe+dRBEexprHursZwq73TNskqrauRE8vZPTf4VrP6IWZzD1NU4fCC4oZiJAy6k8vI+P50o6waWZE8GvsufNbGUoCA7Q0huZXTYac59/YXg11nVS1sZiBIuE7/AN0TpJ9K2NzCi2AoK5XYAieUNrJPQ7+vSvbXDgpBBQFTpqft9d9vQ1tYdJjl4dfkaW9JkC7v4aj8xRdzhl4ZDC6jNHaekba6CZ8fCtHbwgLOpK90iNTuwk8+ukelWYiyqlSxnKO7EnY7GP7U7fWK2oGkS/J6xdW784FHSGDefl5UZdwoOFZSWgXJ0An225Zo59aNv2LauhUZd5mTMZfdGv5BhrgMKhk5n15MFGvMADkBrry61OTbdjpbUD8K4Jb/AEVEMme+GnKczA97Q8gQAPDnVq/Jm3Htv7/50xs3CoysIA2CnOPhbHU1z4to7pUamBlDFgJJKww6azqNSRAmsoSlugOUVyKLnyctjWWPTXY7qdD+sAPWkd3CfPpckiYYrE94SCZnSYnY7mtk+JzLE7wQRp6jN9Y99AvhBDFnIHmrSTrM5BHP1jrRpx+YNp8CjLN0n9YL/wCA8dazGHwF0CGUFpP/AFU66fS/JrYYxEW4uQkgDWRB3O0bj1qvEYa2CECaN1Y7g9Y6E/CtFtdjS3M1icFfCd2AWWdbiacuZ123qKYK82ckLCkR86uxgamdNTWrvYCQJyaCN22Gv3/HprThsHntzKd8LIMz3dfrC+/3HWLpMo3C750ARSSBIuqSJ5wGk6cqtbh94MV7NIGxFxQZkzpm8vjWmfB5GTVJZo3PKSDv5H8wLW4cZJJSTM+19/n+d2cwKJj8Xwi9kEKJaG/rFgANqN9ZA3/eoa/wO+yuQqDKo+mJOoG8wsCtnawefOpKwhyjVvh6/bXYvCdnbZhl+iOf6w6/nQ1tXY2kxNrg14wvdEwNWU76HY+tWWeHYlGIDZQCRC3YHTYHnrvWzXho0YZZ0I1Y7ajn1j3jqKHbBg3GTu6gPIJ5sec9BPTntR1G0mdsYK4kM7W4M6dmpOhHNMs7jdvQ01w7i33Qck6gG53iP8T7PjR74Eqoy5DlkwWIPU6kabH3HoaFwqvAOoUiTo+U+MKWWZ/dB1G+9C7QeDHPiLgGt24P8Q/fVRx5H/yGH+IfvoK5w4SQRHhtVNrBIxIAMg6/VXX4D29ThXUxabXbkapxJt/0kz07SD9dSHF7zAxeuaEj2+lLxwpPH317g+H55ChjlZhAk8429KE8DjSb5DDqYyTaT2DzxG9+2uD+/XqcXug64ph53P50G/DgdDm8qqfhSAE97QE6eFMuklVsV9dC6VjX+lrp9nFtPTtAagnF75mMRdMGPaFK8PwxHUEZtauwWALZgoY5SRoJ5noPCpvBVepWPULfnbkYHjGJG+Iuj+9/KjeDfKMIXN1rt46Ad7RY9DqZ+ApK3AzcS4ysPm1zMC0GPBfpHypdgrjWwR2ZMnx+6tLA1t3NDqIy3XHqfTOH8ZXFXFRLd2RJkuoCgwC3eWWA0MCT7tNrh7CsDmnLAAglNjMypBHoeZrKfIzhQS2l3XtLyIYIjKp70DrPd109kda2joAAB5e78/GuKbp7djsjutyoKsQBG41JYx6mqXwpJkOR7P0QScpkanpGnSrhXoNSWRofSjxMOviSTJOgk9ek+PhSziFghXOZyRAKlu7lYkA5YgnSY5ddKahqpxIBZZ2cNbb1Eg+9Y/vU8ZiuJl8fjFFsXXV2ygKxVlUjYDQglpnl0PQUsvfKG00HJdkbNI8f3OU0xvWxL27nstKN1BEQfQgN47ViuLXuzu3LQtscrESR9lXxwcnSJZZqG7ZeePXjouJZvJh79NvKrE4riBob1z+LSk6fJ0ZDcAbIpClsw0O+2/PeIohMASNC5A8zXW+jl2o4l18e9/kH3uMXRBOKYAjfNEaxGtVnjzR/9W0//k/nQeL4QrJbc5iMsSNgSSdwNzI3oCzw20xdRmlTBkj/AN8udLDp9ST+5TJ1Si2qew6t8YusdMQxn9+a9ucSvjfEXI5940qXgyAyJkeNW4jh4yMYaACSdeQmqS6SUfsSj18JbJMKTjjwCcW4nl2hB9ZOlQ/p1p0xbj/ENLMHwxXtq7BuYnWPKpXuF2lUsc0ATpvQXTao6kNLq1Gel88DX+lrpGmLukeDk/bXq8Suj/5N3+I/fSvDcPtlQ6ZtRz/kTVl7h6ZSzAx19YrfDSq7VG+LjqcadhAtxQmEQ53PIsw/hjl76arZui2bgsFrcx2k5QDtp686CwWIKO2W3EknMXJ1PPSK6Ms5akox4ZxYIQ0yc5cr+ssysNmj0B+sV7YLiRnMHkAF+oTVhdmMsST+fdXAVZYYy80luc/jyj5Yvb8iFplMgRpXYggIxPJW+ql/CgQbg10aPDc7dfWj2xfcKGySCCCRcKkg9QBEVN5WocW/Qsuni81aqWz3KuFlhbXI0cjKhp5/SBphgFuM/Z9qqhiQSyqg9WVZHpUuDXLjIbdiwy7scrFyBsTEekn7qdfJrhkA37khdVtgSC7HSdPog+8jwNctx0OU1uuL7nXJS8VRg7Te9dl7h/DODLatXFuSWuBpCH2UgqCOpbUiR08aCwfyZtm533LWtCpWATBko66kSNAR1nwrQXTObmYY9eUSN+gBEbgb1XgBmcQNTp9m/wCT5VyfE5E20+Tt+ExNJNcD3htvNLQNNB0Gg26ADaiLh18tPz+eVWW1CJA5D30PFcs9jojyeqKmAKiBUjSIc8A10NU4tCyMF33X+0veX4gVdUCaPBhDx+ypC3l9m4oPkYn6qQcTwC3fnAYuQoaSApjTMeclY2/V8a0uNtlrN22BraYsoPNW749BLD+5WXvHvDpHu1Hp79K68WWUHqjyc+XFHItMuC2xhEa21lfaYBkdhEsDOWeQaI/JpNicC1sq3aISwIKgZwI3VldRDA+fnTRn1kEzA9/5G+uk1LiNvtbRZPbsl846rPtjygT4a8jXTgzuUtM903v7nJ1OBRhrx7NKl7CWziLirlDqF1kC2gH1ULgrMdpc5O7COXd0+OtFX0v4e4ue24RxJWShI5MD+eddw/HLbzZbNwhiZDXJ3Mk6rzq834cl4cdrvbuc8P8AJB+JPdqt+x5IAJMAazVRtx31MFgJ2YH0IINecUdWt3SEySp7pMx5GPhVfDkItqDMxz08oA5RXS2pzUWtmrpnKovHjc4vdOtuArD3bgWO006ZFj/xoXibAWnJ/VI9+n20SV0iqHdyjW3U3VMQO0ZTvoOYPqPWhkh4cXoXJsWTxZrxJcFfC3zWU8o+JFXWrOWShKzuNCPcdKLQNZQWrmEZNyFdyCJ5glfD4VUPKPWfjGtDD/kjpkg9RePI5RlyE4K7ayXVbNlgZW9oyTocmYAcjQi2LEk9u/8AlD/cqrBnut5J9YoYIsycmQkgMGbtAwjukZdtuW3M8+KGWa4Z6U8GN8rhV+Ax7Ox+2f8AyR/uVMWLH7d/8kf7tU9gnswmblqcrDccoB9Rvyrs47pC24WBcUkhgOqnL3h79T61WWXMuH+hCGDp3zH9SOF4ZZQk/pTGST/Ugbmf2lFfotj9u3+T/wD0qi06hiSLeRh3GBLGZghlyd3bUx03r39GE5SF7QTIzHKQOY5TAOk/dU4TyrZOvyK5ceFu2re3cP4aEtXF7O47yVzQOy3MQdTm68tq1d15YnQBe6oH0AO7ljaDEf8AqDh+Hn5wRsGT6zX0HC4fM7E7AtqDE+BA/Og3rkzylKVy5OvBCMIpR4DsFaCiSBLbff4E6TV1xQAXFvMwBICgZj4AtAE+JArlI5bARQOOuq7rZIvAt3s9rOijQ6G6kAbbT06ioRWqXoWk6QwsXGZQWRkJ3VoJHnlJHjoTVeExLOCWtPa1iLmWT49xmEaxvOlU8QvhLbF+0g92basz66SAgJHnyq7CALbXVyImXJZ4Pe1nWfD0pmk1dCpu6J2L7MzqbboF0DNlyvvquViY0+kBuK9S+e0Kdk2UCe1OXITp3R3s0681jQ67UJwhkKs6G8QWP9dnDA+C3ACBry091eW3Q4lwDezhdQQ/YxC+ySMhbUbGfa8aZxptVwbU6QbdxBDqvZOwbd1y5F/tSwPuBrzFX8gEWmuSY7mXu/vHMy6eUnwoTibor2mc3pzaC0HKnUf1gQER/a01NF8URTbYsbgA1JtFhc010yd4+Q3oKK2dAt7nmJYIGcWi7QAQgXOwnbvMAQJJ1PWh24ZZZQeyCkj9UBhOsSOdEYS4ty2CO0ykEd4MlzTuyZhgdJn1obh91O/bQ3T2ZIJuh5OpHde4O+JG4J0I5EUHF0/QKe5iscnZ3GU+0NOkj4wD9tdhsQUfMpiGOvqYQDnvJpx8rMEQRemRopEbdCTz6VnsO2xB1k947LJnQdfu8qdPVGzcOi2/btuoFy4yBSYJ+cBzcoLLljL8aH/RLA/+Sf8AKH+5RFxZEactxM67R15cvOhnwoYexAjW2Vhz4g5p5HURsNDXXiyZFGoypexwZ8WJzuUbb9SGJwOHdCn6SwmJ+aHUHbtfzNEsmGMRebQBTFscuf8AWaUMim2rAWwymB2YSbi9Jl+RO+syfZnS/C4i4qFe6VaZKIdP7XzkgwNQDy3IBlXkzatV7lFiwaNNbc16nhw+H5X2/wAtf9yq3s4cCReY8wMgg+of6qsyDYqsxoyqez8jr9Y57Uu4gnenLBiCxEK3MBZbQ89tQZkbVaWXKo3q/Q54YMLnWn9Rktu06DPce2F2LfOTm5DVcsR471wwlj/7r/8AV/zqpLeZAIB9kwZI+Gs+VVLhFbVV88waZ8I39NRGvKhiyZVHyypew2fDi1XKNt+tC/Cey3kn2VciNmzq5k6MrOxtkdQoTQ/Uda0yYPLOQqCeYtx9Rq5Ldz9p/p/nXNqo7dDZnVQeyX+bPIs2YTvByeO3OOVcVOhNwZljKwZ/c3c105+EeWnFi6f+ow/ur9tSXC3Odwn+6v2UfHZP4eJlwIkqwlvaGdsnmoySp+rlUgNMuZsgkg5znH+mIkDT1rVCwR/1GHoPvq1LDftGPhAFL47G+HRicJPaGdTIJ1nmefOvpwUAQIE6n1pScGpOYgE9Sqk+80wS5mM/GfuqOSalwWhGgxBAig8IL6s5uXLbKT3AiFSok6Eljm0jpsarx1lbiG21xkBjVGyNoZ0O41FWYXDi2i2wzEKIlmzMecknUnWk4htz7fuNzI7E3L5dOza0qT85nVmYiR7MMADE7zr5anXg5RuzKh4OUsCVB5SAZilNjh4F5r3bXTIjszcm0NANEA02+JojiGEFy2bZuXLYJBzW3yNprEwaa90v2BvTYbhFuBB2rIbmsm2CF3MQGJO0es1VaW/2rFmtdjHcADdpOm5Jyke1sOlRwqdnbVMzNlAGZzmYxzJ5nxqjB4FVvvc7S6WYGUa4TbEkeymw2+J60VJW/wDwDTpBXEFvFR2DWladTdVmEQdgpBmY+NFEn1oTimFW7byG5ctCQc1p8jacs3SrrAVUVc5bKAMzGWMCJJ5k8zWdaUBXZXw8Xgp7drbNOhtqVEQNCGY6zPwqF5b/AGqlWtdjHfUhu0nXZgcsezuOtVYfB27d17gvXGa5Pzb3cyCTm7qH2fCOVS4pg1uplZ7iAHNmtubZ0B0JHLXai2tXo/Qyuv5LcbYFy2yMNGBFfNSpS4UYTlaPD0+uvpVq6CoAYNECZkmOpHOlmK4RYb/pgGZkGNfKYNJBqLY0t0Za8ND3Znlp9R0PkapKHmJPK5lWR/d58tdxyraJgmX2WA6wiiY8jXC3c/aD+D+dUjn0rYnPCpO2Yo2Z5Qf1wq6+BUHuyCRPPn1rxbfRQp6ZVYN68tY026bRW2yXP2g/gH317kuftAf7v/Km+Jf9Qnw0fX8zFCwf1ABzSAZ8Q2afWZHjQHEsOdGy6CYGRRknfvAzr4SOZg7fRFsnmw/g/wCVc+FDCGKkHcG3I92as+ob2YY4IxdowtlMyAFS2g0H/sT7xVgwzH2lz6aGDoOh7yk/Z48tkmCVdF7NR07Lp5NUlwR/7R/wj/uUYZ3FUgTwKbtiO9wu290XXDsw2DGVHSFiKPayCpnMOUzBE9DyPjSu+2YMA7KSIzL7Q8RIIBqPBcBasoQM5YnVmMsegkDQe6mbtbvjgZKnsg3hvDLVgMLSRmMkyWY+ZOv2amrcfwi1iAouqzBTIAYqJ6kAidOvU9aG4lgbd9OzdripMkLAzRsDKmQDrHXyorh9hLaLatjKiiB1PUnqTuTSt973GS7VsGJZUQFEAaADkByHhQ2E4PZt3WvKh7V5zOzFjrqYkmNhty0oTiXAbOIuJcul2yRlSR2ehkiMs689dac5qm3S8r55GW73XHBVjsKl1DauDMjRmAYrMGQJUg+lWYLBW7VsW7a5UWYG+5k6nU6nnS/AfJ6zbvtiRna42bvOQYLbkQBGmngDFNcRhxcttbYsA6lSVMNB0MHl0rSpJJPb+9jJ92twG/wexcvLfZc1xMuU5iQMpkd2Y0JJ86Y3ACpDaAggmY38eRoHg3BLOFVltKQGMmTJ2gCY2H2mpcW4PbxKql3NlVswCmNYI106E0JNOSTbpf3gyTUW0tyXCOEWcOpWyuUMZOpaSBG5qPGOE2MQFW8MwWSozldTpOhE7UZhLKW7a20EKihVHgBHvpfjOB2Lt5L9xGNxMmU5iAMhzLp56+tCM/Pbb9+5mvLSX4DVBAjpAA8qW4bhNi3euXrafOvmztnLTmIY90mBqBy0pjNLOHcEsWrz3rasLjhsxLEg52DNp5ihF7Pdr9/cMlbW38BPEMKl621u6ua2YkEldiGGoII1A51dwzDWrVtbdoAIswMxaJJY6kk7t1qWMwqXLbW3Eo4ytGmh8ap4Rwi1hkNu0CFLFiCZ1IA5+Cisn5OXzx2A15rr8SvF8Lw73kvuvzq5crZ2X2SSNAwB35imDIrKQdQQQZ5g0Dxfg1rEqouqWCkkQYOuh2om1aCqqCYUBRO8AQJrSl5Vu2/+vY0Vu9gXhfDbGGlLIChjJXOW1AiYZjGldxThFnEZe1TNknKQSpE76g+A91UXOAWWxAxJDC6CpkNAOUZdRGumh8KaFRtGlGU6akm77syimnFpUeAkff8AzpfhOE2rd1rttSrvOaGOUyZPd231qHCuBWsMXNrMM4AKlpGmo0jlJHqau4pw63ftm3cEqSDoYII1BHStajKk3T5NWpW0rXARjsJbuobdxcymDG2o1BBGoNdhMEltBbQHKu0ksRziSZih+FYJLFsW0ZyoJK5yCROsCANJk+tDcY4HaxJR3zK6bOhAbrEkHY6jpRTjelt0K01uluEXuDWWui/lIurEMrFSY01A0Ommu40onEWQylXXMrAgg6gg8oqdvQAEltAJO58TAAn0pQ3AkF/t7b3EYmWVSMjTvKkHfn466Git+Xxwaq4XPIRwvhNqyCtvOFOuUtmAPUTtUuIcKtXgBcDAjZlOVh4T08KveCCpEg6Gl/CsB2DNF+4yN9FzmA6Qx1HTxpoNtuTdME1S0pbCGz9tM09kV1dRYyLl2qGMYhdDHeG2nI11dWjygT+UL4eZVZ10O+vM0Dxu6yhcrEe1sY6dK8rq0PqAl8o6seyP7KfUKyHyux11L4CXXUZV0Vio3PIGurq2H6n5i5PlNwd6xWMx10Y9UF1ws2+7mOXYcpiurqXD80vZjZPlXubI8qwvBcddPFmtm65TNiO4WJXQGNJjSurqbpfln7Az8x9zftWA+QGOu3MSwuXXcZDozFh7a8ia6urYPpT9kbJ88TZ/KNyuGxBUkEW2IIMEHKdQRtWe/wD85xdy4mI7S47wyRnYtHdO0nSvK6hi+hL3QJ/VQz+W99kwjMjMpzLqpKnfqKp+RV93w8uzMcz6sSx2HM11dWf+3/EZfV/Av+V190tgozKZGqkj6LdKN4LcLWLZYkkjUkyTqedeV1JP6S92FfUfsB8evMuXKxHtbEjp0ppb+j/ZH1V1dSz+nEaPzMD4k5DCCRttpzo817XUZfKjL5mChjn35iiWrq6ml2AioVRdrq6tALP/2Q==" class="ki">
+
+                    <h2 class="hoverline">The Oberoi Amarvilas Agra</h2>
+                    ⭐ 4.7
+                    <p>Just 600 metres from the Taj Mahal, The Oberoi Amarvilas Agra boasts luxurious 5-star accommodation with a flat-screen TV. This property houses 4 dining options and provides free parking.</p>
+                    <style>
+                        th,
+                        td {
+                            padding: 10px;
+                        }
+                    </style>
+                    <table style="width:100%">
+                        <tr>
+                            <td> 🛌🏽 4-star hotel</td>
+                            <td>☕ Breakfast</td>
+                            <td> ᯤ Free Wifi</td>
+                        </tr>
+                        <tr>
+                            <td> 🚕 Free Parking</td>
+                            <td>❄️ Air Conditioning</td>
+                            <td>🐕 Pet-friendly</td>
+                        </tr>
+                        <tr>
+                            <td>🍽️ Restaurant</td>
+                            <td>✈️ Airport Shuttle</td>
+                            <td>👶 Child-friendly</td>
+                        </tr>
+                    </table>
+
+                    <div class="buttons0">
+                        <form action="https://www.oberoihotels.com/special-offers/limited-period-offer/?utm_source=google&utm_content=oberoione-15persavings&utm_medium=cpc&utm_campaign=oberoi_agra_search_conversion_ia&gad=1&gclid=EAIaIQobChMIgrGequingAMVsoxLBR364wJHEAAYASAAEgJERPD_BwE" target="_blank">
+                            <button class="btn btn-primary bold">View Offers</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="message">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/13/41/81/ef/brickyard-retreat-at.jpg" class="kl">
+
+                    <h2 class="hoverline">Coral Country Homestay</h2>
+                    ⭐ 4.0
+                    <p>Featuring a garden, a shared lounge, and a terrace, Coral Country Homestay provides accommodation in Agra with free WiFi and city views.</p>
+                    <style>
+                        th,
+                        td {
+                            padding: 10px;
+                        }
+                    </style>
+                    <table style="width:100%">
+                        <tr>
+                            <td> 🛌🏽 4-star hotel</td>
+                            <td>☕ Breakfast</td>
+                            <td> ᯤ Free Wifi</td>
+                        </tr>
+                        <tr>
+                            <td> 🚕 Free Parking</td>
+                            <td>🏋️ Fitness Center</td>
+                            <td>🧖‍♀️ Spa Facility</td>
+                        </tr>
+                        <tr>
+                            <td>🍽️ Restaurant</td>
+                            <td>✈️ Airport Shuttle</td>
+                            <td>👶 Child-friendly</td>
+                        </tr>
+                    </table>
+
+                    <div class="buttons1">
+                        <form action="https://www.booking.com/hotel/in/coral-country-homestay.en-gb.html?aid=356980&label=gog235jc-1DCAsobEIWY29yYWwtY291bnRyeS1ob21lc3RheUgzWANobIgBAZgBCbgBF8gBD9gBA-gBAYgCAagCA7gC9dv6pQbAAgHSAiQwZGYyNDMwNS00ZmIyLTQzYzctOWI5Ni05MGE1NmI5ZTcxMmXYAgTgAgE&sid=127a39173d08d80076e38d139d702390&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                            <button class="btn btn-primary bold">View Offers</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="message">
+                    <img src="data:image/jpeg;base64,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" class="ki">
+
+                    <h2 class="hoverline">
+                        Taj Street Hostel</h2>
+                    ⭐ 4.8
+                    <p>Set in Agra, 1.4 km from Taj Mahal, Taj Street Hostel offers accommodation with a garden, free private parking, a shared lounge and a terrace.</p>
+                    <style>
+                        th,
+                        td {
+                            padding: 10px;
+                        }
+                    </style>
+                    <table style="width:100%">
+                        <tr>
+                            <td> 🛌🏽 3-star hotel</td>
+                            <td>☕ Breakfast</td>
+                            <td> ᯤ Free Wifi</td>
+                        </tr>
+                        <tr>
+                            <td> 🚕 Free Parking</td>
+                            <td>❄️ Air Conditioning</td>
+                            <td>🐕 Pet-friendly</td>
+                        </tr>
+                    </table>
+
+                    <div class="buttons2">
+                        <form action="https://www.booking.com/searchresults.en-gb.html?aid=311984&label=taj-street-hostel-yBloXcvjyou4JNzJ_yNq2gS589580379551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-1433895711750%3Alp20453%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsD8UKUHIRFxY&gclid=EAIaIQobChMIpdmAjumngAMVUQFyCh1sgQVBEAAYASAAEgKm8fD_BwE&highlighted_hotels=6721450&checkin=2023-08-16&redirected=1&city=-2088244&hlrd=with_av&source=hotel&checkout=2023-08-17&keep_landing=1&sid=127a39173d08d80076e38d139d702390" target="_blank">
+                            <button class="btn btn-primary bold">View Offers</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="message">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/105944754.jpg?k=1bf9fb2481da4dc4997d6f741d2f7e411c705a41febc8f39120f59685db14d93&o=&hp=1" class="ki">
+                    <h2 class="hoverline">The Coral House</h2>
+                    <p><span class="bold">Sponsored</span>.From @ Agoda</p>
+                    ⭐ 4.7
+                    <p>Offering a sun terrace and views of the garden, The Coral House Homestay by the Taj is located in Agra, 700 metres from Taj Mahal.</p>
+                    <style>
+                        th,
+                        td {
+                            padding: 10px;
+                        }
+                    </style>
+                    <table style="width:100%">
+                        <tr>
+                            <td> 🛌🏽 3-star hotel</td>
+                            <td>☕ Breakfast</td>
+                            <td> ᯤ Free Wifi</td>
+                        </tr>
+                        <tr>
+                            <td> 🚕 Free Parking</td>
+                            <td>❄️ Air Conditioning</td>
+                            <td>🐕 Pet-friendly</td>
+                        </tr>
+                    </table>
+                    <div class="buttons3">
+                        <form action="https://www.booking.com/hotel/in/the-coral-house-homestay.en-gb.html?aid=356980&label=gog235jc-1DCAsobEIYdGhlLWNvcmFsLWhvdXNlLWhvbWVzdGF5SDNYA2hsiAEBmAEJuAEXyAEP2AED6AEBiAIBqAIDuALD3vqlBsACAdICJDZjMWIwMzUzLTNjZjQtNGY4Ny1hOTAwLTc5NjI4OWIyZDg2YtgCBOACAQ&sid=127a39173d08d80076e38d139d702390&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank">
+                            <button class="btn btn-primary bold">View Offers</button>
+                        </form>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <div class="center">
+                    <a href="https://www.makemytrip.com/hotels/agra-hotels-near-taj_mahal.html" target="_blank">For more Details click here</a>
+                </div>
+
+
+                <br>
+                <br>
+            </div>
+            <div class="something d-flex flex-row">
+                🔍
+                <h5 class="name1">Famous Places</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Agra_Fort" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agra_03-2016_10_Agra_Fort.jpg/450px-Agra_03-2016_10_Agra_Fort.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Agra Fort</p>
+                    </div>
+
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Akbar%27s_tomb" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Akbar%27s_Tomb_04.jpg/330px-Akbar%27s_Tomb_04.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Akbar's Tombs</p>
+                    </div>
+
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+
+                        <a href="https://en.wikipedia.org/wiki/Mehtab_Bagh" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mehtab_Bagh_facing_Taj_Mahal.JPG/408px-Mehtab_Bagh_facing_Taj_Mahal.JPG" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Mehtab Bagh</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.tajmahal.gov.in/pdf/mughal-heritage-walk.pdf" target="_blank"><img src="https://tse3.mm.bing.net/th?id=OIP.TdoduUZSTU9nc03vt0F5AwHaDt&pid=Api&P=0&h=180" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Mughal Heritage(Kachhpura Village)</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Sheroes_Hangout" target="_blank"><img src="https://www.india.com/wp-content/uploads/2017/08/sheroes-hangout.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Sheroes Hangout</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.agramagic.com/bazaarwalk.html" target="_blank"><img src="https://tse3.mm.bing.net/th?id=OIP.4CChRO_bJSc6DDzE0Q6SjQHaE6&pid=Api&P=0&h=180" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">The Bazaars of the Old City</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.tajmahal.gov.in/fatehpur-sikri.aspx" target="_blank"><img src="https://www.tajmahal.gov.in/images/monuments/fatehpur-sikri.jpg" height="100px" width="100px" class="bor">
+                        </a>
+                        <p class="hoverline">Fatehpur Sikri</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Jama_Mosque,_Agra" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jami_Masjid_-Agra_-Uttar_Pradesh_-IMG_0282.jpg/330px-Jami_Masjid_-Agra_-Uttar_Pradesh_-IMG_0282.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Jama Masjid</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://en.wikipedia.org/wiki/Jahangir_Mahal,_Orchha" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Le_Jehangir_Mahal_%28Orchha%29_%288451914174%29.jpg/375px-Le_Jehangir_Mahal_%28Orchha%29_%288451914174%29.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Jhangir Mahal</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.holidify.com/places/agra/chini-ka-rauza-sightseeing-120812.html" target="_blank"><img src="https://www.holidify.com/images/cmsuploads/compressed/3530550211_615381bc2f_b_20180315181738.jpg" height="100px" width="100px" class="bor" /></a>
+                        <p class="hoverline">Chini ka rauza</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.makemytrip.com/travel-guide/agra/anguri-bagh-monuments.html" target="_blank"><img src="https://www.makemytrip.com/travel-guide/media/dg_image/agra/14_Anguri-Bagh.jpg" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Anguri Bagh</p>
+                    </div>
+                    <div class="vs col-12 col-lg-4 col-xl-3">
+                        <a href="https://www.tripadvisor.in/Attraction_Review-g297683-d3912804-Reviews-Taj_Museum-Agra_Agra_District_Uttar_Pradesh.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b7/c3/14/the-taj-museum.jpg?w=900&h=-1&s=1" height="100px" width="100px" class="bor"></a>
+                        <p class="hoverline">Taj Museum</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="https://www.tripsavvy.com/places-to-visit-in-and-around-agra-1539760" target="_blank">For more info click here</a>
+            </div>
+        </div>
+        <div class="Great1">
+            <button class="btn btn-primary move" onclick="display('sectionhome')">Home</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
